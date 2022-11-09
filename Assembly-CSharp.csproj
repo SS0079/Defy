@@ -1,0 +1,1971 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{0488b074-e9db-16c5-d219-cfb6c92e1d22}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
+    <DefineConstants>UNITY_2021_3_11;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;ENABLE_HYBRID_RENDERER_V2;DOTS_INSTANCING_ON;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="D:\Project\Unity\Defy\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.dll" />
+    <Analyzer Include="D:\Project\Unity\Defy\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.LambdaJobs.dll" />
+    <Analyzer Include="D:\Project\Unity\Defy\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.JobEntity.dll" />
+    <Analyzer Include="D:\Project\Unity\Defy\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.Sample.dll" />
+    <Analyzer Include="D:\Project\Unity\Defy\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.Common.dll" />
+    <Analyzer Include="D:\Project\Unity\Defy\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.AuthoringComponent.dll" />
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\ControlMapper_InputGrid.cs" />
+     <Compile Include="Assets\Defy\Scripts\MonoBehavior\EntityFollower.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Utilities\AttachToWheelCollider.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\AmmoCountData.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\DestroyFlagData.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\WeaponConfig.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\SimpleCharacterController\SimpleCharacterMovementData.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\EnemySpawnSystem.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\ServiceClass\DeltaCalculator.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\ButtonInfo.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\DefySystemGroups.cs" />
+     <Compile Include="Assets\Defy\Scripts\Authoring\BulletAuthoring.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\SubEntityConfig.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\FixHeightSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\Authoring\SampledCurveAuthoring.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Utilities\AbstractPerformanceAnalyzer.cs" />
+     <Compile Include="Assets\Defy\Scripts\Buffer\WeaponConfigBuffer.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\InputFieldInfo.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\ControlMapper_Enums.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Utilities\KittyMath.cs" />
+     <Compile Include="Assets\Rewired\Internal\Scripts\DataStorage\UserDataStore_PlayerPrefs.cs" />
+     <Compile Include="Assets\Rewired\Integration\UnityUI\PlayerPointerEventData.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\DestinationData.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Utilities\CruiseMove.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\MovementSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\FadeMatOverrideData.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\EnemyAttackConfig.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\ServiceClass\KittyTimer.cs" />
+     <Compile Include="Assets\Defy\Scripts\MonoBehavior\UpgradePanelController.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\IncomingDamageData.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\ServiceClass\KittyMonoSingleton.cs" />
+     <Compile Include="Assets\Rewired\Integration\UnityUI\RewiredEventSystem.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\CalibrationWindow.cs" />
+     <Compile Include="Assets\Defy\Scripts\MonoBehavior\LoadScene.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\DestroyTimerData.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\VfxCountDownData.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\MIRVReenterSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\MIRVConfig.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Utilities\MergeMesh.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\EnemyAttackSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\Authoring\WeaponUpgradeAuthoring.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\FlameAnimateSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\MonoBehavior\DebugIndicator.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\ToggleInfo.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\BulletConfig.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Utilities\UIDrag.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\SplitConfig.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Utilities\ScaleMeter.cs" />
+     <Compile Include="Assets\Rewired\Internal\Scripts\Misc\ExternalTools.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\EntityParticleEmitterConfigData.cs" />
+     <Compile Include="Assets\Defy\Scripts\MonoBehavior\AmmoPanelController.cs" />
+     <Compile Include="Assets\Defy\Scripts\MonoBehavior\AmmoBarController.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\UITools.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\InputBehaviorWindow.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\SoftCollisionSystem.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\ControlMapper_Classes.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\UIControl.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\FixHeightConfig.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\DealDamageSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\TriggerFlagData.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\UpgradeUIReference.cs" />
+     <Compile Include="Assets\Rewired\Internal\Scripts\InputManager.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\ServiceClass\KittyUDPClient.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\ChangeWeaponSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\HitCheckSystem.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\ThemedElement.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\SetPlayerMoveSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\ChangeSwitchableMatSystem.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Utilities\FreeMove.cs" />
+     <Compile Include="Assets\Defy\Scripts\Authoring\EnemySpawnerAuthoring.cs" />
+     <Compile Include="Assets\Rewired\Integration\UnityUI\RewiredPointerInputModule.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\UISliderControl.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\ScrollbarVisibilityHelper.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Prototype\BuffManagerUnit.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\UIGroup.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\SwitchableMatOverrideData.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Extensions\PoolExtension.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\Obsolete\SimpleCharacterMovementSystem.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\LanguageData.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\SetAimPosSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\PlayerSpawner.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\CustomSlider.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\Window.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Tag\PlayerTag.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Extensions\GetChildExtension.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\ServiceClass\KittyPool.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Utilities\ReadOnlyInspectorAttribute.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\SimpleCharacterController\SimpleCharacterMoveConfig.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\WeaponUpgradeReference.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\UIControlSet.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\BallisticReenterSystem.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\UISelectionUtility.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\DelayShootData.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\MovementData.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\ServiceClass\LoopIndex.cs" />
+     <Compile Include="Assets\Defy\Scripts\Authoring\EmitterAuthoring.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\DebugComponentData.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\ICustomSelectable.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\CanvasScalerExt.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\InputRow.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\SampledCurveReference.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\EntityParticleSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\Utilities\DefyUtilities.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\ServiceClass\QuadrangularPrismCollider.cs" />
+     <Compile Include="Assets\Rewired\Integration\UnityUI\RewiredStandaloneInputModule.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\IndividualRandomData.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\ServiceClass\KittyCoroutine.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\AimPlayerSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\ShootSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\TimerData.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\DestroyFlagItemSystem.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\UIImageHelper.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Utilities\ScaleMeterInspctor.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\ControlMapper.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\RotateSpeedConfig.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Utilities\UnifiedTransformControl.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\StopMoveTimerData.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\CombatData.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\Kill0HpSystem.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\ThemeSettings.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\ScrollRectSelectableChild.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\EntityParticleData.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\ServiceClass\Loom.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Extensions\ListExtension.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Examples\ControlMapperDemo\Scripts\ControlMapperDemoMessage.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\InitializationGroup\TimerSystem.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Prototype\AbstractBuff.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\ServiceClass\KittyStrategy.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\CustomToggle.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Extensions\RecycleExtension.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Utilities\GetMainCameraUtility.cs" />
+     <Compile Include="Assets\Defy\Scripts\Authoring\PlayerAuthoring.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\ServiceClass\JsonFileHandler.cs" />
+     <Compile Include="Assets\Rewired\Internal\Scripts\ControllerTemplates\ControllerTemplates.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\CanvasScalerFitter.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\CustomButton.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\EntityLeaderData.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Utilities\ScriptTemplateCtrl.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\AimPosData.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\AmmoUIUpdateSystem.cs" />
+     <Compile Include="Assets\Rewired\Internal\Scripts\Platforms\Ouya\OuyaInputSource.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Tag\IsFlameTag.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\UIElementInfo.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\BallisticMissileConfig.cs" />
+     <Compile Include="Assets\Defy\Scripts\MonoBehavior\UpgradeCardController.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\LanguageDataBase.cs" />
+     <Compile Include="Assets\Defy\Scripts\Authoring\AllWeaponAuthoring.cs" />
+     <Compile Include="Assets\Rewired\Extras\ControlMapper\Scripts\ControlMapper_WindowManager.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\Utilities\CustomSlider.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\EnemyConfig.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\InitializationGroup\SetPlayerShootSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\DeadVFXConfig.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\SetPlayerEntityLeaderSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\VFXConfig.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Data\TerminalData.cs" />
+     <Compile Include="Assets\KittyHelpYouOut\ChangeLog.cs" />
+     <Compile Include="Assets\Defy\Scripts\Component\Config\AmmoUIReference.cs" />
+     <Compile Include="Assets\Defy\Scripts\System\SimulationGroup\SetEnemyMoveSystem.cs" />
+     <Compile Include="Assets\Defy\Scripts\Authoring\EnemyAuthoring.cs" />
+     <Folder Include="Assets" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\workspaceserver.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\cm-help.en.txt" />
+     <Folder Include="Assets\Rewired\Internal\Scripts\Platforms" />
+     <Folder Include="Assets\MediumMechStriker" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ProfilerModules\memory-profiler-window.uxml" />
+     <Folder Include="Assets\Rewired\Extras\ControlMapper\Prefabs\Parts\Windows" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\common_light.uss" />
+     <Folder Include="Assets\Rewired\Internal\Data\CustomCalculations" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\MediumMechStriker\Black" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Hierarchy\hierarchy-item.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\foldout-with-action-button.uss" />
+     <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\ActiveBuildConfiguration" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Library\PackageCache\com.unity.modules.jsonserialize@1.0.0\package.json" />
+     <Folder Include="Assets\Rewired\Internal\Libraries\Runtime\Native\WindowsStandalone\x64" />
+     <Folder Include="Library\PackageCache\com.unity.serialization@1.7.0-preview.1\Tests" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\SystemMixed" />
+     <Folder Include="Library\PackageCache\com.unity.test-framework@1.1.31" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\WindowInstance" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Inspector\component-header.uxml" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration\active-build-config-window-item.uss" />
+     <Folder Include="Assets\KittyHelpYouOut\ServiceClass" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\EndCommandBuffer" />
+     <Folder Include="Assets\URP_Settings\Settings" />
+     <Folder Include="Assets\KittyHelpYouOut\Assets\Fonts" />
+     <Folder Include="Library\PackageCache\com.unity.searcher@4.9.1" />
+     <None Include="Library\PackageCache\com.unity.modules.screencapture@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Spinner" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\EntityHierarchy\entity-hierarchy-enable-live-link-message.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Tests" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\search-element-filter-popup.uss" />
+     <None Include="Library\PackageCache\com.unity.modules.cloth@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Controls\TabView\tab-view_light.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\System" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets\Defy\Prefabs\Bullet" />
+     <None Include="Library\PackageCache\com.unity.test-framework.performance@2.8.0-preview\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\commontypes.es.txt" />
+     <None Include="Library\PackageCache\com.unity.properties@1.7.0-preview\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ActiveBuildConfiguration" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization" />
+     <Folder Include="Library\PackageCache\com.unity.modules.imgui@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\ConvertActive" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ProfilerModules" />
+     <Folder Include="Assets\Rewired\Internal\Libraries\Runtime\Native\WindowsStandalone\x86" />
+     <Folder Include="Assets\KittyHelpYouOut\Assets" />
+     <Folder Include="Library\PackageCache\com.unity.serialization@1.7.0-preview.1" />
+     <Folder Include="Assets\TextMesh Pro\Sprites" />
+     <Folder Include="Assets\Rewired\Integration" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\cm.ko.txt" />
+     <Folder Include="Assets\Assets\UI Elements\White\1x" />
+     <Folder Include="Assets\Defy\Scripts\Component\Tag" />
+     <Folder Include="Assets\MediumMechStriker\FBX\ScifiMechStandardWeapons\Materials" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\ScifiMechDecals" />
+     <None Include="Library\PackageCache\com.unity.modules.ai@1.0.0\package.json" />
+     <Folder Include="Assets\Defy\Scripts\Component\Data" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Archetype" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\xdiff.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\PieChart.uss" />
+     <None Include="Library\PackageCache\com.unity.collections@1.4.0\Unity.Collections.LowLevel.ILSupport\README.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.animation@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\clientcommon.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.rendering.hybrid@0.51.1-preview.21\package.json" />
+     <Folder Include="Assets\Rewired\Documentation\Html\files\images" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\binmergetool.es.txt" />
+     <None Include="Library\PackageCache\com.unity.ugui@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\icons" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\memory-profiler-component_light.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\autocomplete.uss" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\differences.zh-Hant.txt" />
+     <Folder Include="Assets\Rewired\Internal\Libraries" />
+     <Folder Include="Library\PackageCache\com.unity.modules.xr@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Go To Entities" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
+     <Folder Include="Assets\MediumMechStriker\FBX\ScifiMechPresentation\Materials" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\configurehelper.es.txt" />
+     <Folder Include="Assets\MediumMechStriker\FBX\MediumMechStriker" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Preferences\preferences-setting.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Content\entity-query-header.uxml" />
+     <None Include="Library\PackageCache\com.unity.ext.nunit@1.0.6\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Textures\SMAA" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Query" />
+     <Folder Include="Library\PackageCache\com.unity.ide.rider@3.0.16\Rider" />
+     <Folder Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ProfilerModules\memory-profiler-left-pane.uxml" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\MediumMechStriker\Blue" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\ScifiMechStandardWeapons\LRMRacks" />
+     <Folder Include="Assets\Assets\UI Elements\Black\1x" />
+     <Folder Include="Library\PackageCache\com.unity.cinemachine@2.8.9" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources" />
+     <Folder Include="Library\PackageCache\com.unity.serialization@1.7.0-preview.1\Runtime" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Hierarchy\hierarchy-loading.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Preferences\preferences-value.uxml" />
+     <None Include="Library\PackageCache\com.unity.modules.assetbundle@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\RuntimeComponent" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\binmergetool.en.txt" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Tests" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Components\component-type-view.uss" />
+     <Folder Include="Assets\MediumMechStriker\Textures\ScifiMechDecals" />
+     <Folder Include="Assets\MediumMechStriker\Textures\MediumMechStriker\Albedo" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\system-dependency-view.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Preferences\preferences-value.uss" />
+     <Folder Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\RoundedCorners" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Controls" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Content" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Settings" />
+     <Folder Include="Assets\Defy\Scripts\System\PresentationGroup" />
+     <None Include="Library\PackageCache\com.unity.serialization@1.7.0-preview.1\package.json" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\package.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Inspector\entity-inspector-components-tab.uss" />
+     <Folder Include="Assets\MediumMechStriker\FBX\ScifiMechDecals\Materials" />
+     <Folder Include="Assets\MediumMechStriker\NewAnimation" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\selected\Go To Systems" />
+     <None Include="Library\PackageCache\com.unity.modules.imgui@1.0.0\package.json" />
+     <Folder Include="Assets\Assets\UI Elements\Extras" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Component" />
+     <Folder Include="Library\PackageCache\com.unity.roslyn@0.2.2-preview\Tests" />
+     <Folder Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Graphics" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Spinner\spinner_light.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Go To Systems" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\list-element-default.uss" />
+     <Folder Include="Assets\MediumMechStriker\FBX\ScifiMechAmmunition\Materials" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uxml\build-configuration-dependency.uxml" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\ValidationExceptions.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration\active-build-config-dropdown_dark.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\SystemSchedule\system-schedule-item.uss" />
+     <Folder Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uxml" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\plastic-gui.es.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.tilemap@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\selected\UnmanagedSystem" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\ActiveBuildConfiguration" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Content\entity-info.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ActiveBuildConfiguration\active-build-config-popup.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\selected\Go To Entities" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\selected\Search" />
+     <Folder Include="Assets\MediumMechStriker\FBX\ScifiMechAmmunition" />
+     <Folder Include="Library\PackageCache\com.unity.modules.assetbundle@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uss\build-configuration-dependency.uss" />
+     <Folder Include="Library\PackageCache\com.unity.burst@1.7.3\Tests" />
+     <Folder Include="Assets\Assets\UI Elements\White\2x" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uss\build-configuration-dependency_dark.uss" />
+     <Folder Include="Assets\Rewired\Internal\Libraries\Runtime\Native\WindowsStandalone" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\ScifiMechStandardWeapons\EnergyWeapons" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Inspector\entity-inspector-relationships-tab.uxml" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Hierarchy\hierarchy-item.uxml" />
+     <Folder Include="Assets\StreamingAssets" />
+     <Folder Include="Library\PackageCache\com.unity.properties@1.7.0-preview\Runtime" />
+     <Folder Include="Assets\KittyHelpYouOut\Assets\Fonts\TMP asset" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Components\components-window_light.uss" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\guihelp.es.txt" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Spinner" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Inspector\tag-component-element.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Preferences\preferences-setting.uxml" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\ScifiMechStandardWeapons\MG" />
+     <None Include="Library\PackageCache\com.unity.timeline@1.6.4\package.json" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uxml\pagination-element.uxml" />
+     <Folder Include="Assets\Rewired\Internal\Assets\UWP" />
+     <Folder Include="Assets\Defy\Scripts" />
+     <Folder Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss" />
+     <Folder Include="Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Spinner" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\EntityHierarchy\entity-hierarchy-toolbar.uss" />
+     <Folder Include="Library\PackageCache\com.unity.test-framework.performance@2.8.0-preview" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\StyleSheets\Extensions" />
+     <Folder Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Tests" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\differences.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\plastic-gui.ko.txt" />
+     <Folder Include="Library\PackageCache\com.unity.collections@1.4.0\Unity.Collections.LowLevel.ILSupport" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\SystemEnabled" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\memory-profiler-right-pane_dark.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Controls\TabView" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
+     <Folder Include="Library\PackageCache\com.unity.collections@1.4.0" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Hierarchy\hierarchy-loading.uxml" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\cm-help.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\cm.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.cinemachine@2.8.9\ValidationExceptions.json" />
+     <Folder Include="Assets\Defy\Scenes" />
+     <Folder Include="Library\PackageCache\com.unity.visualscripting@1.7.8" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\StyleSheets\Extensions\common.uss" />
+     <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\ValidationConfig.json" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Content" />
+     <Folder Include="Library\PackageCache\com.unity.ext.nunit@1.0.6\net35" />
+     <Folder Include="Assets\Rewired\Internal\Assets" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\search-element.uss" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\null-string-field.uss" />
+     <Folder Include="Assets\KittyHelpYouOut" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Inspector" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\SystemDisabled" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <Folder Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\SystemSchedule" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\query-view.uss" />
+     <None Include="Library\PackageCache\com.unity.modules.terrainphysics@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.mathematics@1.2.6\package.json" />
+     <None Include="Library\PackageCache\com.unity.scriptablebuildpipeline@1.20.1\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM" />
+     <Folder Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uss\build-configuration-dependency_light.uss" />
+     <Folder Include="Assets\Defy\Scripts\MonoBehavior" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Settings" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\EntityGroup" />
+     <Folder Include="Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Components\component-type-view.uxml" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\binmergetool.ko.txt" />
+     <Folder Include="Assets\TextMesh Pro\Resources" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\EntityHierarchy\entity-hierarchy-toolbar.uxml" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Content\component-attribute.uxml" />
+     <Folder Include="Assets\Rewired\DevTools" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Components" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\foldout-without-action-button.uss" />
+     <None Include="Assets\KittyHelpYouOut\ScriptTemplates\MonoTemplate.txt" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\StyleSheets" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\commontypes.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\i3.zh-Hant.txt" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\System" />
+     <Folder Include="Library\PackageCache\com.unity.modules.screencapture@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.visualscripting@1.7.8\package.json" />
+     <Folder Include="Assets\SceneDependencyCache" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Group" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Components\components-window_dark.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Inspector\entity-inspector-relationships-tab.uss" />
+     <Folder Include="Library\PackageCache\com.unity.physics@0.51.1-preview.21\Tests" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\SystemSchedule" />
+     <None Include="Library\PackageCache\com.unity.timeline@1.6.4\ValidationExceptions.json" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\EntityHierarchy" />
+     <Folder Include="Assets\Rewired\Internal\Libraries\Runtime\Native" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\package.json" />
+     <Folder Include="Assets\Rewired\Extras\ControlMapper\Examples\ControlMapperDemo\Scripts" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uxml\key-value-pair.uxml" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\set-element-default.uss" />
+     <Folder Include="Assets\Rewired\Internal\Data\Controllers" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ActiveBuildConfiguration\search-field.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.timeline@1.6.4" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Hierarchy" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Remove" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\component-view.uss" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\images.zh-Hans.txt" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\selected\Group" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\EndCommandBuffer" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Controls\foldout-field.uxml" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Preferences\preferences-window.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.modules.cloth@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Convert" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\workspaceserver.ja.txt" />
+     <Folder Include="Assets\Rewired\Extras\ControlMapper\Examples" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\ConvertActive" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ProfilerModules\memory-profiler-right-pane.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.roslyn@0.2.2-preview" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\PackageConversionData.json" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\memory-profiler-left-pane_light.uss" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\basecommands.es.txt" />
+     <Folder Include="Assets\Rewired\Extras\ControlMapper\Examples\ControlMapperDemo" />
+     <Folder Include="Library\PackageCache\com.unity.ext.nunit@1.0.6" />
+     <Folder Include="Library\PackageCache\com.unity.profiling.core@1.0.2" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\system-queries-view.uss" />
+     <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Textures\FilmGrain" />
+     <Folder Include="Assets\Defy\Scripts\BlobAssets" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Preferences" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\memory-profiler-right-pane.uss" />
+     <Folder Include="Library\PackageCache\com.unity.serialization@1.7.0-preview.1\Editor" />
+     <Folder Include="Library\PackageCache\com.unity.burst@1.7.3" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\selected\BeginCommandBuffer" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Components" />
+     <Folder Include="Assets\Rewired\Documentation\Html\files" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\differences.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\package.json" />
+     <Folder Include="Assets\Defy" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@12.1.7\ValidationConfig.json" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@12.1.7\package.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\SystemSchedule\system-schedule_light.uss" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Library\PackageCache\com.unity.modules.imageconversion@1.0.0" />
+     <Folder Include="Assets\Defy\Scripts\Component" />
+     <None Include="Library\PackageCache\com.unity.physics@0.51.1-preview.21\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\differences.ko.txt" />
+     <Folder Include="Library\PackageCache\com.unity.properties@1.7.0-preview\Editor" />
+     <Folder Include="Library\PackageCache\com.unity.modules.terrainphysics@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\circular-reference.uss" />
+     <Folder Include="Assets\Defy\Scripts\Buffer" />
+     <None Include="Library\PackageCache\com.unity.modules.imageconversion@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uxml\add-collection-item.uxml" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\commontypes.zh-Hant.txt" />
+     <None Include="Assets\Rewired\Documentation\ReleaseNotes.txt" />
+     <Folder Include="Library\PackageCache\com.unity.services.core@1.4.2\Editor" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\DebugWindows" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\ValidationExceptions.json" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\MediumMechStriker" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\UnmanagedSystem" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\autocomplete_dark.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Common\foldout-with-action-button.uxml" />
+     <None Include="Library\PackageCache\com.unity.shadergraph@12.1.7\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\configurehelper.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\SystemSchedule\system-schedule-item.uxml" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Content\section.uss" />
+     <Folder Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Runtime" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Common\entity-view.uxml" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\ScifiMechPresentation" />
+     <Folder Include="Assets\Rewired\Internal\Scripts\Platforms\Ouya" />
+     <Folder Include="Assets\TextMesh Pro" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\commontypes.en.txt" />
+     <Folder Include="Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Tests" />
+     <Folder Include="Assets\Assets\UI Elements" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\configurehelper.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Inspector\entity-field.uxml" />
+     <None Include="Library\PackageCache\com.unity.modules.unityanalytics@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Component" />
+     <Folder Include="Library\PackageCache\com.unity.properties@1.7.0-preview" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\mergetool.zh-Hant.txt" />
+     <Folder Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\icons" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\basecommands.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration\active-build-config-dropdown.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Common" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\plastic-gui.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\EntityHierarchy\entity-hierarchy-enable-live-link-message.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons" />
+     <Folder Include="Assets\Defy\Texture" />
+     <Folder Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.rendering.hybrid@0.51.1-preview.21" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\workspaceserver.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\key-value-pair.uss" />
+     <None Include="Library\PackageCache\com.unity.ide.rider@3.0.16\package.json" />
+     <Folder Include="Assets\Defy\Scripts\System" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources" />
+     <None Include="Assets\Rewired\Documentation\ReadMe.txt" />
+     <Folder Include="Assets\Defy\Physics" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Common\system-list-view.uxml" />
+     <Folder Include="Assets\URP_Settings" />
+     <Folder Include="Assets\Rewired\Internal\Assets\Libs" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration" />
+     <None Include="Library\PackageCache\com.unity.searcher@4.9.1\package.json" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uxml\circular-reference.uxml" />
+     <None Include="Library\PackageCache\com.unity.modules.video@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration\active-build-config-popup_light.uss" />
+     <None Include="Library\PackageCache\com.unity.shadergraph@12.1.7\ValidationConfig.json" />
+     <Folder Include="Assets\Rewired\Extras\ControlMapper\Images" />
+     <None Include="Assets\KittyHelpYouOut\Assets\Shader\ColorFlipRotateOverlay.shader" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Go To Entities" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\mergetool.en.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\semantic.ja.txt" />
+     <Folder Include="Library\PackageCache\com.unity.shadergraph@12.1.7\Tests" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Controls" />
+     <None Include="Library\PackageCache\com.unity.test-framework@1.1.31\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unityanalytics@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Content\entity-query-header.uss" />
+     <Folder Include="Library\PackageCache\com.unity.modules.physics@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Controls\TabView\tab-view.uss" />
+     <Folder Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Inspector\tag-component-element.uxml" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration\active-build-config-popup.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Inspector\entity-inspector.uss" />
+     <Folder Include="Library\PackageCache\com.unity.modules.vr@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Preferences\preferences-window.uss" />
+     <None Include="Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\i3.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\cm.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration\search-field_dark.uss" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uxml\test-data-container.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.modules.physics2d@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uxml\search-element.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\RoundedCorners" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Controls\foldout-field_light.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\structural-changes-profiler-window_dark.uss" />
+     <Folder Include="Assets\Rewired\Integration\UnityUI" />
+     <None Include="Library\PackageCache\com.unity.roslyn@0.2.2-preview\package.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Inspector\entity-header.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Archetype" />
+     <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7" />
+     <None Include="Library\PackageCache\com.unity.modules.particlesystem@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Segment" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uss\classic-build-profile_dark.uss" />
+     <Folder Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview" />
+     <None Include="Assets\KittyHelpYouOut\Assets\Shader\ColorFlipRotateRing.shader" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uxml\build-configuration.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\EntityHierarchy" />
+     <Folder Include="Library\PackageCache\com.unity.modules.wind@1.0.0" />
+     <None Include="Assets\Defy\Materials\AmmoUIShader.shader" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\common_dark.uss" />
+     <Folder Include="Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4" />
+     <Folder Include="Library\PackageCache\com.unity.shadergraph@12.1.7" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\ScifiMechStandardWeapons\SRMRacks" />
+     <None Include="Library\PackageCache\com.unity.modules.physics2d@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\lazy-load-reference.uss" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Rewired\Documentation\licences.txt" />
+     <Folder Include="Assets\Rewired\Internal\Data\Controllers\HardwareMaps\Joysticks\Default" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\mergetool.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.vr@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.4.2\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\cm-help.zh-Hant.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.uielements@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.visualscripting@1.7.8\ValidationExceptions.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Common\centered-message-element.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.properties@1.7.0-preview\Tests" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.particlesystem@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Inspector\entity-field.uss" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Components\components-window.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Components" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\plastic-gui.ja.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\RuntimeComponent" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\selected\Query" />
+     <Folder Include="Assets\Defy\Scripts\System\InitializationGroup" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Content\header.uss" />
+     <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\ValidationExceptions.json" />
+     <Folder Include="Assets\KittyHelpYouOut\Assets\Shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\semantic.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ProfilerModules\memory-profiler-tree-view-item.uxml" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uss\build-configuration.uss" />
+     <Folder Include="Assets\MediumMechStriker\Textures\ScifiMechPresentation" />
+     <None Include="Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\link.xml" />
+     <None Include="Library\PackageCache\com.unity.cinemachine@2.8.9\license.txt" />
+     <Folder Include="Assets\Assets\Scenes" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Tests\Editor" />
+     <Folder Include="Assets\KittyHelpYouOut\Utilities" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\commontypes.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.wind@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\structural-changes-profiler-window_light.uss" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Library\PackageCache\com.unity.roslyn@0.2.2-preview\License.txt" />
+     <Folder Include="Library\PackageCache\com.unity.ugui@1.0.0\Tests" />
+     <Folder Include="Assets\Rewired\Extras\ControlMapper\Scripts" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.umbra@1.0.0\package.json" />
+     <Folder Include="Assets\Rewired\Extras\ControlMapper\Languages" />
+     <Folder Include="Assets\Defy\Models" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\configurehelper.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Textures" />
+     <Folder Include="Library\PackageCache\com.unity.2d.sprite@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.modules.tilemap@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uss\build-configuration_light.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Search" />
+     <Folder Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\icons\dark" />
+     <Folder Include="Library\PackageCache\com.unity.modules.ui@1.0.0" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\EntityGroup" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\clientcommon.en.txt" />
+     <Folder Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\memory-profiler-tree-view-item.uss" />
+     <Folder Include="Assets\Assets\Raw and SpriteSheets" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\cm-help.zh-Hans.txt" />
+     <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Textures" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\clientcommon.es.txt" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Go To Systems" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs" />
+     <Folder Include="Library\PackageCache\com.unity.mathematics@1.2.6" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\memory-profiler-left-pane_dark.uss" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\configurehelper.en.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ActiveBuildConfiguration\active-build-config-window-item.uxml" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\FileSystemWatcherLicense.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.androidjni@1.0.0" />
+     <Folder Include="Assets\Gridbox Prototype Materials\Mesh" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uss\build-component.uss" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\i3.es.txt" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\add-collection-item.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\variables_light.uss" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <Folder Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Gizmos" />
+     <Folder Include="Assets\Defy\Scripts\Utilities" />
+     <Folder Include="Assets\Defy\Prefabs\VFX" />
+     <Folder Include="Assets\TextMesh Pro\Shaders" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Gizmos" />
+     <None Include="Library\PackageCache\com.unity.modules.audio@1.0.0\package.json" />
+     <Folder Include="Assets\Defy\Scripts\System\SimulationGroup" />
+     <Folder Include="Assets\KittyHelpYouOut\Prototype" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\query-with-entities.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Preferences" />
+     <Folder Include="Assets\Gridbox Prototype Materials\Materials" />
+     <Folder Include="Assets\Assets\UI Elements\Extras\Circle512" />
+     <Folder Include="Assets\Rewired\Documentation\Html" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\xdiff.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.physics@1.0.0\package.json" />
+     <Folder Include="Assets\Rewired\Data" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@1.17.2" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\memory-profiler-left-pane.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Components" />
+     <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Textures\2D" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Inspector\entity-field_light.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ActiveBuildConfiguration\active-build-config-dropdown.uxml" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\ValidationExceptions.json" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\semantic.en.txt" />
+     <Folder Include="Assets\Assets\UI Elements\Black\2x" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Content\component.uss" />
+     <Folder Include="Assets\Defy\Scenes\StressTestScene" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration\active-build-config-popup_dark.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\selected\Settings" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\workspaceserver.ko.txt" />
+     <Folder Include="Assets\TextMesh Pro\Fonts" />
+     <None Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Controls\foldout-field.uss" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ProfilerModules\structural-changes-profiler-tree-view-item.uxml" />
+     <Folder Include="Assets\Defy\Materials" />
+     <Folder Include="Assets\Rewired\Internal\Data\Controllers\HardwareMaps" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\memory-profiler-window.uss" />
+     <Folder Include="Assets\GlobalEntitiesDependencies" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Content\system.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Content\display-list.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\SystemSchedule\system-schedule-header.uxml" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\configurehelper.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Inspector\entity-field_dark.uss" />
+     <Folder Include="Library\PackageCache\com.unity.scriptablebuildpipeline@1.20.1" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6" />
+     <Folder Include="Assets\Assets" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Hierarchy\hierarchy-toolbar.uss" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\cm.es.txt" />
+     <None Include="Library\PackageCache\com.unity.modules.uielementsnative@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\guihelp.ja.txt" />
+     <Folder Include="Library\PackageCache\com.unity.ide.rider@3.0.16" />
+     <Folder Include="Assets\MediumMechStriker\ExampleScene+Readme" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Content\component-attribute.uss" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\mergetool.zh-Hans.txt" />
+     <Folder Include="Assets\Assets\UI Elements\Extras\Circle128" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <Folder Include="Library\PackageCache\com.unity.render-pipelines.core@12.1.7" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Inspector\entity-header.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common" />
+     <None Include="Assets\KittyHelpYouOut\Assets\Fonts\3500汉字 符号 英文字符集.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\variables.uss" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\xdiff.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\images.zh-Hant.txt" />
+     <Folder Include="Assets\Rewired\Internal\Data\Controllers\HardwareMaps\Joysticks" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ActiveBuildConfiguration\active-build-config-popup-item.uxml" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\guihelp.en.txt" />
+     <Folder Include="Assets\Rewired\Extras\ControlMapper\Prefabs" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\clientcommon.zh-Hans.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration\active-build-config-popup-item.uss" />
+     <Folder Include="Assets\Rewired\Internal\Assets\Integration" />
+     <Folder Include="Library\PackageCache\com.unity.searcher@4.9.1\Tests" />
+     <Folder Include="Library\PackageCache\com.unity.test-framework.performance@2.8.0-preview\Tests" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Common\system-dependency-view.uxml" />
+     <Folder Include="Assets\KittyHelpYouOut\Extensions" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\autocomplete_light.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Controls\foldout-field_dark.uss" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\images.es.txt" />
+     <Folder Include="Assets\Defy\Scripts\Authoring" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\list-element.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration\active-build-config-window-item_dark.uss" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\MediumMechStriker\White" />
+     <Folder Include="Assets\Assets\UI Elements\Extras\ProgressBars" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uss\build-component_dark.uss" />
+     <Folder Include="Assets\Assets\UI Elements\White" />
+     <Folder Include="Assets\Rewired\Extras\ControlMapper\Themes" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\dots-editor-common_light.uss" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_SDF_SSD.cginc" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\memory-profiler-component_dark.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\WindowInstance" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Go To" />
+     <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Textures\BlueNoise16" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Scenes.Hybrid.Tests\TestSceneWithSubScene" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\DebugWindows\entity-debug-window.uxml" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Inspector\component-header.uss" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\ValidationConfig.json" />
+     <Folder Include="Assets\Defy\Scripts\Component\SimpleCharacterController" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uxml\search-element-filter-popup.uxml" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\i3.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Controls\TabView\tab-view_dark.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Query" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\differences.en.txt" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\ValidationConfig.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\basecommands.en.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\entity-view.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\UnmanagedSystem" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Hierarchy\hierarchy.uss" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\binmergetool.zh-Hant.txt" />
+     <Folder Include="Assets\Defy\Scenes\PrototypeScene" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\selected" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\guihelp.zh-Hans.txt" />
+     <Folder Include="Library\PackageCache\com.unity.ide.vscode@1.2.5" />
+     <Folder Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0" />
+     <Folder Include="Assets\Rewired\Extras" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Remove" />
+     <Folder Include="Assets\MediumMechStriker\Textures\ScifiMechStandardWeapons" />
+     <None Include="Library\PackageCache\com.unity.modules.xr@1.0.0\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Tests" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\cm-help.ja.txt" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Entity" />
+     <None Include="Library\PackageCache\com.unity.jobs@0.70.0-preview.7\package.json" />
+     <None Include="Library\PackageCache\com.unity.profiling.core@1.0.2\package.json" />
+     <Folder Include="Assets\MediumMechStriker\FBX\ScifiMechDecals" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\basecommands.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\semantic.zh-Hans.txt" />
+     <Folder Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\icons\selected" />
+     <Folder Include="Library\PackageCache\com.unity.services.core@1.4.2" />
+     <Folder Include="Assets\MediumMechStriker\FBX" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\xdiff.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_Properties.cginc" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Entity" />
+     <Folder Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uxml" />
+     <None Include="Assets\KittyHelpYouOut\Assets\Fonts\常用符号(英文 中文).txt" />
+     <Folder Include="Assets\Assets\UI Elements\Extras\Rects" />
+     <Folder Include="Library\PackageCache\com.unity.render-pipelines.core@12.1.7\Tests" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\SystemSchedule\system-schedule_dark.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\selected\System" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\common.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Convert" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\basecommands.zh-Hant.txt" />
+     <Folder Include="Assets\Rewired" />
+     <Folder Include="Assets\Rewired\Internal" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Inspector\entity-inspector-components-tab.uxml" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_SDF Internal Editor.shader" />
+     <Folder Include="Library\PackageCache\com.unity.modules.umbra@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Search" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\package.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ProfilerModules\structural-changes-profiler-window.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ProfilerModules\memory-profiler-component.uxml" />
+     <Folder Include="Assets\Rewired\Documentation" />
+     <Folder Include="Assets\Rewired\Extras\ControlMapper" />
+     <None Include="Assets\Rewired\Internal\Assets\InputManagerSettings.json" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <Folder Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\icons\light" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Hierarchy" />
+     <Folder Include="Assets\Rewired\Internal\Scripts\ControllerTemplates" />
+     <Folder Include="Assets\StreamingAssets\EntityScenes" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml" />
+     <Folder Include="Assets\Defy\Prefabs" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib" />
+     <None Include="Library\PackageCache\com.unity.modules.director@1.0.0\package.json" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\ScifiMechStandardWeapons" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\dots-editor-common_dark.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\SystemEnabled" />
+     <Folder Include="Assets\Rewired\Documentation\Html\files\css" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\binmergetool.ja.txt" />
+     <Folder Include="Assets\MediumMechStriker\FBX\ScifiMechStandardWeapons" />
+     <None Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\ValidationExceptions.json" />
+     <Folder Include="Library\PackageCache\com.unity.modules.jsonserialize@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.visualscripting@1.7.8\ValidationConfig.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration\active-build-config-dropdown_light.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\ActiveBuildConfiguration\active-build-config-window.uxml" />
+     <Folder Include="Assets\MediumMechStriker\Textures\MediumMechStriker\AlbedoAO" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\differences.es.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\structural-changes-profiler-tree-view-item.uss" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders" />
+     <Folder Include="Library\PackageCache\com.unity.modules.director@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Tests\Editor" />
+     <Folder Include="Library\PackageCache\com.unity.modules.audio@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Segment" />
+     <Folder Include="Assets\MediumMechStriker\Textures\MediumMechStriker" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\Group" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\ValidationExceptions.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Content\entity-query.uss" />
+     <None Include="Library\PackageCache\com.unity.modules.terrain@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Hierarchy\hierarchy-toolbar.uxml" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\memory-profiler-right-pane_light.uss" />
+     <None Include="Library\PackageCache\com.unity.cinemachine@2.8.9\package.json" />
+     <None Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\xdiff.en.txt" />
+     <Folder Include="Library\PackageCache\com.unity.serialization@1.7.0-preview.1\Tests\Runtime" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\plastic-gui.zh-Hans.txt" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\BeginCommandBuffer" />
+     <Folder Include="Assets\Resources" />
+     <Folder Include="Assets\Defy\Scripts\System\Obsolete" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\memory-profiler-component.uss" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uss\build-component_light.uss" />
+     <Folder Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16" />
+     <Folder Include="Assets\Rewired\Extras\ControlMapper\Prefabs\Parts" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\variables_dark.uss" />
+     <Folder Include="Assets\MediumMechStriker\FBX\MediumMechStriker\Materials" />
+     <Folder Include="Assets\Gridbox Prototype Materials" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\xdiff.es.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration\active-build-config-window.uss" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration\search-field_light.uss" />
+     <None Include="Library\PackageCache\com.unity.collections@1.4.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.modules.androidjni@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uxml\build-component.uxml" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\MediumMechStriker\Yellow" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\selected\EndCommandBuffer" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\EntityHierarchy\entity-hierarchy-item.uss" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\MediumMechStriker\Red" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.physics@0.51.1-preview.21" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Spinner\spinner_dark.uss" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <Folder Include="Library\PackageCache\com.unity.modules.video@1.0.0" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Inspector" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\selected\Entity" />
+     <Folder Include="Library\PackageCache\com.unity.jobs@0.70.0-preview.7" />
+     <Folder Include="Library\PackageCache\com.unity.modules.ai@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\i3.en.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Components\components-window.uss" />
+     <Folder Include="Assets\Assets\UI Elements\Extras\Circle256" />
+     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\PackageConversionData_Assets.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\cm.ja.txt" />
+     <Folder Include="Assets\Defy\Scripts\Component\Config" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\StyleSheets\Extensions\dark.uss" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <Folder Include="Assets\MediumMechStriker\FBX\ScifiMechPresentation" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\clientcommon.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\package.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ProfilerModules\structural-changes-profiler-window.uss" />
+     <Folder Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\selected\WindowInstance" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\SystemSchedule\system-schedule-toolbar.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\Textures\BlueNoise16\L" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\cm-help.es.txt" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\ScifiMechAmmunition" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\basecommands.ko.txt" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uss\classic-build-profile.uss" />
+     <None Include="Library\PackageCache\com.unity.mathematics@1.2.6\ValidationExceptions.json" />
+     <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Package Resources" />
+     <None Include="Library\PackageCache\com.unity.scriptablebuildpipeline@1.20.1\ValidationExceptions.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\mergetool.ja.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\SystemSchedule\system-schedule.uss" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.terrain@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uxml\complicated-type-test.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Tests" />
+     <Folder Include="Assets\Rewired\Internal\Scripts" />
+     <Folder Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\Tests" />
+     <None Include="Library\PackageCache\com.unity.modules.animation@1.0.0\package.json" />
+     <Folder Include="Assets\Rewired\Internal\Scripts\DataStorage" />
+     <Folder Include="Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\workspaceserver.es.txt" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Scenes.Hybrid.Tests" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\EntityHierarchy\entity-hierarchy-item.uxml" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uss\build-configuration_dark.uss" />
+     <Folder Include="Assets\TextMesh Pro\Documentation" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\DebugWindows\system-debug-window.uxml" />
+     <Folder Include="Library\PackageCache\com.unity.modules.uielementsnative@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\images.en.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Spinner\spinner.uss" />
+     <Folder Include="Assets\Defy\Prefabs\Actor" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\workspaceserver.en.txt" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\pagination-element.uss" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uxml\type-inspector.uxml" />
+     <Folder Include="Assets\Rewired\Internal\Assets\Extras" />
+     <Folder Include="Assets\Rewired\Internal\Data" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\StyleSheets\Extensions\light.uss" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\mergetool.es.txt" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\SystemSchedule\system-schedule-toolbar.uss" />
+     <Folder Include="Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\guihelp.ko.txt" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\SystemMixed" />
+     <Folder Include="Library\PackageCache\com.unity.visualscripting@1.7.8\Editor" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uss\classic-build-profile_light.uss" />
+     <None Include="Library\PackageCache\com.unity.collections@1.4.0\ValidationExceptions.json" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\semantic.zh-Hant.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\guihelp.zh-Hant.txt" />
+     <None Include="Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.xml" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\BeginCommandBuffer" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\nullable-foldout.uss" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uss\set-element.uss" />
+     <Folder Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Tests" />
+     <Folder Include="Assets\MediumMechStriker\Textures" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\SystemSchedule\system-schedule-header.uss" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.universal@12.1.7\ValidationConfig.json" />
+     <None Include="Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0\package.json" />
+     <Folder Include="Assets\Rewired\Internal\Data\Controllers\HardwareMaps\Joysticks\Templates" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\dots-editor-common.uss" />
+     <None Include="Library\PackageCache\com.unity.modules.uielements@1.0.0\package.json" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration\search-field.uss" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uxml\lazy-load-reference.uxml" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Inspector\inspector.uss" />
+     <None Include="Library\PackageCache\com.unity.burst@1.7.3\package.json" />
+     <None Include="Library\PackageCache\com.unity.properties.ui@1.7.0-preview\Editor Default Resources\uxml\null-string-field.uxml" />
+     <Folder Include="Assets\Rewired\Internal\Scripts\Misc" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\plastic-gui.en.txt" />
+     <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\i3.ja.txt" />
+     <Folder Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Presets\Noise" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+     <Folder Include="Library\PackageCache\com.unity.ugui@1.0.0" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\binmergetool.zh-Hans.txt" />
+     <None Include="Assets\KittyHelpYouOut\Assets\Fonts\7000汉字 符号 英文字符集.txt" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\commontypes.zh-Hans.txt" />
+     <Folder Include="Assets\Gridbox Prototype Materials\Textures" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\images.ko.txt" />
+     <Folder Include="Library\PackageCache\com.unity.cinemachine@2.8.9\Presets" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Common\foldout-without-action-button.uxml" />
+     <Folder Include="Assets\Rewired\Internal\Data\EditorData" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\images.ja.txt" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\dark\Go To" />
+     <Folder Include="Assets\MediumMechStriker\Prefabs\ScifiMechStandardWeapons\BallisticWeapons" />
+     <None Include="Library\PackageCache\com.unity.modules.ui@1.0.0\package.json" />
+     <Folder Include="Assets\MediumMechStriker\Textures\ScifiMechAmmunition" />
+     <Folder Include="Assets\Rewired\Internal\Libraries\Runtime" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\ActiveBuildConfiguration\active-build-config-window-item_light.uss" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\cm.en.txt" />
+     <Folder Include="Assets\KittyHelpYouOut\ScriptTemplates" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\centered-message-element.uss" />
+     <Folder Include="Assets\Defy\Settings" />
+     <Folder Include="Assets\Assets\UI Elements\Black" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\Common\component-view.uxml" />
+     <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\localization\clientcommon.ja.txt" />
+     <None Include="Assets\KittyHelpYouOut\Assets\Shader\ColorFlipUpDown.shader" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\DebugWindows\debug-window.uss" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\icons\light\SystemDisabled" />
+     <None Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uss\Common\system-list-view.uss" />
+     <None Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\package.json" />
+     <Folder Include="Library\PackageCache\com.unity.entities@0.51.1-preview.21\Editor Default Resources\uxml\DebugWindows" />
+     <None Include="Library\PackageCache\com.unity.platforms@0.51.1-preview.21\Editor Default Resources\uxml\classic-build-profile.uxml" />
+     <Reference Include="UnityEngine">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AIModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ARModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AccessibilityModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AndroidJNIModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AnimationModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AssetBundleModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AudioModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClothModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterInputModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterRendererModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CrashReportingModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DSPGraphModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DirectorModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GIModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GameCenterModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GridModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.HotReloadModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.IMGUIModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ImageConversionModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputLegacyModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.JSONSerializeModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.LocalizationModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ParticleSystemModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PerformanceReportingModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PhysicsModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Physics2DModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ProfilerModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ScreenCaptureModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SharedInternalsModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteMaskModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteShapeModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.StreamingModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubstanceModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubsystemsModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TLSModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainPhysicsModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreFontEngineModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreTextEngineModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextRenderingModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TilemapModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsNativeModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIWidgetsModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UIWidgetsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UNETModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UmbraModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityConnectModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityCurlModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityTestProtocolModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VFXModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VRModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VehiclesModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VideoModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VirtualTexturingModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.WindModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.XRModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.CoreModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DeviceSimulatorModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DiagnosticsModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.GraphViewModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.PackageManagerUIModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.QuickSearchModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SceneTemplateModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreFontEngineModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreTextEngineModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIBuilderModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsSamplesModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIServiceModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UnityConnectModule">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Collections.LowLevel.ILSupport">
+     <HintPath>D:\Project\Unity\Defy\Library\PackageCache\com.unity.collections@1.4.0\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Pdb">
+     <HintPath>D:\Project\Unity\Defy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>D:\Project\Unity\Defy\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="Rewired_Windows">
+     <HintPath>D:\Project\Unity\Defy\Assets\Rewired\Internal\Libraries\Runtime\Rewired_Windows.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Unsafe">
+     <HintPath>D:\Project\Unity\Defy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Mdb">
+     <HintPath>D:\Project\Unity\Defy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil">
+     <HintPath>D:\Project\Unity\Defy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Rocks">
+     <HintPath>D:\Project\Unity\Defy\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>D:\Project\Unity\Defy\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Rewired_Core">
+     <HintPath>D:\Project\Unity\Defy\Assets\Rewired\Internal\Libraries\Runtime\Rewired_Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Mono.Cecil">
+     <HintPath>D:\Project\Unity\Defy\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Types">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Gradle">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+     </Reference>
+     <Reference Include="netstandard">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.Win32.Primitives">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.AppContext">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Buffers">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Concurrent">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.NonGeneric">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Specialized">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.EventBasedAsync">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Primitives">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.TypeConverter">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Console">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.Common">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Contracts">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Debug">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.FileVersionInfo">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Process">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.StackTrace">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TextWriterTraceListener">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tools">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TraceSource">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tracing">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing.Primitives">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Dynamic.Runtime">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Calendars">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Extensions">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.ZipFile">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.DriveInfo">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Primitives">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Watcher">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.IsolatedStorage">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.MemoryMappedFiles">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Pipes">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.UnmanagedMemoryStream">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Expressions">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Parallel">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Queryable">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Memory">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NameResolution">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NetworkInformation">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Ping">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Primitives">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Requests">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Security">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Sockets">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebHeaderCollection">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets.Client">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics.Vectors">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ObjectModel">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.DispatchProxy">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.ILGeneration">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.Lightweight">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Extensions">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Primitives">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Reader">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.ResourceManager">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Writer">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.VisualC">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Extensions">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Handles">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Numerics">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Formatters">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Json">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Primitives">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Xml">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Claims">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Algorithms">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Csp">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Encoding">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Primitives">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.X509Certificates">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Principal">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.SecureString">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding.Extensions">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.RegularExpressions">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Overlapped">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Extensions">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Parallel">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Thread">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.ThreadPool">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Timer">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ValueTuple">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.ReaderWriter">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XDocument">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlDocument">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlSerializer">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath.XDocument">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     </Reference>
+     <Reference Include="mscorlib">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Composition">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Core">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+     </Reference>
+     <Reference Include="System">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.FileSystem">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Web">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Transactions">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Web">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Windows">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Linq">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Serialization">
+     <HintPath>D:\Program\Unity\2021.3.11f1c2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.Properties.csproj">
+      <Project>{e88c5b36-0151-d715-b0e4-01e9533c0faf}</Project>
+      <Name>Unity.Properties</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Serialization.csproj">
+      <Project>{de89afec-e14b-f684-22d2-061cb7fc6da9}</Project>
+      <Name>Unity.Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{5945dc73-e4bc-693a-0a4e-5cbce9f48097}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.CacheServer.csproj">
+      <Project>{3da32553-60ba-9699-51db-0925feb2d0e0}</Project>
+      <Name>UnityEditor.CacheServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rendering.Hybrid.Editor.csproj">
+      <Project>{2d5505c9-51e8-5dc9-7508-b7b141425ce7}</Project>
+      <Name>Unity.Rendering.Hybrid.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{46e4b053-738b-e670-9ec1-0a4f6cf3bed3}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
+      <Project>{862cc42e-68c2-6202-2536-d8bf5ec34255}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{eb4782bf-221c-2dbf-0cb7-235ee750d977}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Properties.UI.Editor.csproj">
+      <Project>{c24abcd9-d97e-4d34-d20a-a64cb88e7156}</Project>
+      <Name>Unity.Properties.UI.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Collections.Editor.csproj">
+      <Project>{68d60c50-3afe-ca47-5bdc-db2246e431f2}</Project>
+      <Name>Unity.Collections.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{8f3b24cc-3ee2-76b4-42e2-96e28ecaf2a2}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Extensions.csproj">
+      <Project>{6a2cdfaf-e810-3d25-1134-8723746fd193}</Project>
+      <Name>Unity.Mathematics.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{0e16d48c-4992-d621-153d-9afdc2033d1a}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Transforms.csproj">
+      <Project>{347b525b-ea84-da71-af74-16e20eb51d54}</Project>
+      <Name>Unity.Transforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Collections.csproj">
+      <Project>{4067a8aa-5f3e-1ac2-a5eb-2745b4b6fe82}</Project>
+      <Name>Unity.Collections</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Physics.csproj">
+      <Project>{1fbfe4f8-68ac-a845-8860-1c3f33658055}</Project>
+      <Name>Unity.Physics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Editor.csproj">
+      <Project>{4621984c-36b8-6511-0adb-ac131e16d7e8}</Project>
+      <Name>Unity.Entities.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Editor.Properties.csproj">
+      <Project>{dacf4ef8-9086-ade7-8007-49d11fbe586b}</Project>
+      <Name>Unity.Entities.Editor.Properties</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
+      <Project>{6b8bdd35-f8b4-d366-4b01-93a95adfcbad}</Project>
+      <Name>Unity.VisualScripting.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{c4c475a8-69b9-9b66-8d78-c3b62d2bcb12}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Physics.Hybrid.csproj">
+      <Project>{519f1585-d7a1-f72f-b322-6e664ac0aca9}</Project>
+      <Name>Unity.Physics.Hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{e2f22d8f-a0bd-20f1-6d03-6c0d69d6f9e6}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{79696dd1-26bb-dd53-a766-b984ffbdd16b}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.csproj">
+      <Project>{891549c0-40a9-eed1-babf-da61e5db7674}</Project>
+      <Name>Unity.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Hybrid.csproj">
+      <Project>{6f24953c-415b-334e-32b4-d6c80ebd0c6d}</Project>
+      <Name>Unity.Entities.Hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{a6f25841-36c5-5968-ef4e-338e2bdb98db}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
+      <Project>{b0e394ed-2ffb-9a19-bc50-a08f25a4fe47}</Project>
+      <Name>Unity.Services.Core.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{648b3353-f54b-ffc3-d4f8-5c28716d8c9f}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
+      <Project>{403885fa-a053-367c-5138-9535ecad456d}</Project>
+      <Name>Unity.Services.Core.Environments</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
+      <Project>{022d9656-a3f7-2fe7-a6f2-594a02972b7e}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Properties.UI.csproj">
+      <Project>{06e98742-7b16-e6d5-8a8b-33540555f739}</Project>
+      <Name>Unity.Properties.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ScriptableBuildPipeline.csproj">
+      <Project>{bdb8b2d6-908a-31aa-06b7-c77e90456a4d}</Project>
+      <Name>Unity.ScriptableBuildPipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Serialization.Editor.csproj">
+      <Project>{68f2bdc1-9b86-2763-ee5b-653681e07df0}</Project>
+      <Name>Unity.Serialization.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rendering.Hybrid.csproj">
+      <Project>{0f0d5003-46d2-30c1-f5b6-df9e0792dd6d}</Project>
+      <Name>Unity.Rendering.Hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Hybrid.HybridComponents.csproj">
+      <Project>{ad85ecaf-50c7-7f49-d7a8-136d77e5c139}</Project>
+      <Name>Unity.Entities.Hybrid.HybridComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Transforms.Hybrid.csproj">
+      <Project>{833ede2b-367f-5029-1252-20dd53e88638}</Project>
+      <Name>Unity.Transforms.Hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
+      <Project>{8b987f20-22b0-f411-a914-55911bfefa69}</Project>
+      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{c01e94e9-4e29-008f-f012-906ce82d8317}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
+      <Project>{29dc4a64-c509-1ddc-f557-1cd307d0adbd}</Project>
+      <Name>Unity.VisualScripting.State.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Searcher.Editor.csproj">
+      <Project>{1adda5e6-98e8-e9d5-01c1-605150e06147}</Project>
+      <Name>Unity.Searcher.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{cfef5f98-b79b-708b-92d3-e2c974b01f17}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{a7fd293a-2dc0-a79f-dad1-6b47657394f5}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{00e05aed-93f6-ed40-05b7-adc5cf301a9e}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Hybrid.EndToEnd.Tests.csproj">
+      <Project>{612b4d00-6d3b-d50d-732c-f2ef6feca86b}</Project>
+      <Name>Unity.Entities.Hybrid.EndToEnd.Tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{892482c7-9db1-75ce-848d-9438aa6508c5}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Scenes.csproj">
+      <Project>{4f2f24e6-bb39-9030-c6b0-5d9d41acca68}</Project>
+      <Name>Unity.Scenes</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
+      <Project>{c5a5dc72-aea1-5251-f2e3-36f0e6ed7a26}</Project>
+      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Scenes.Editor.csproj">
+      <Project>{939592f7-af5e-e29d-2242-c5d40e68cf20}</Project>
+      <Name>Unity.Scenes.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
+      <Project>{fc7214bf-65ef-b60b-9558-13aa5b1569b8}</Project>
+      <Name>Unity.VisualScripting.Flow.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Extensions.Hybrid.csproj">
+      <Project>{026186f0-be21-5bed-8d91-054c5abab133}</Project>
+      <Name>Unity.Mathematics.Extensions.Hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
+      <Project>{2708a9ac-0fe8-94a2-5dc9-d357a6443862}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="PPv2URPConverters.csproj">
+      <Project>{26fe8abd-fa61-928f-b740-cffd5bec339a}</Project>
+      <Name>PPv2URPConverters</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.BuildUtils.csproj">
+      <Project>{afc5206e-0ad8-170e-4d6f-38b0db5921b3}</Project>
+      <Name>Unity.Entities.BuildUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{4f9619c2-5181-e807-2be7-9004db3188ae}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Profiling.Core.csproj">
+      <Project>{2453f58a-b1eb-2ef6-72da-d8cf038c7984}</Project>
+      <Name>Unity.Profiling.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{09452f2d-5f3c-5110-7f1c-5a2b3effa814}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Editor.csproj">
+      <Project>{32b88aa7-f010-411c-454e-0028dc0f9ef3}</Project>
+      <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{12f89510-d9b0-e541-a1fa-011691fc9932}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{1abeb628-4c8d-0692-0ae0-7cd9191cd6ea}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Physics.Editor.csproj">
+      <Project>{73ce4178-a699-ef58-2686-e92e49e815f2}</Project>
+      <Name>Unity.Physics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{777e347c-2d43-1cd7-c7c9-edf24e05d237}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{f473f1aa-3349-c275-06b5-ae0d5334d029}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{ff344501-be2b-c51d-f050-dc9b37222158}</Project>
+      <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
+      <Project>{c4490da5-071a-8963-a4f4-693eb7554eff}</Project>
+      <Name>Unity.RenderPipelines.Universal.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Jobs.csproj">
+      <Project>{d13978cf-d514-b9a9-4f4f-fe9b60d85f2f}</Project>
+      <Name>Unity.Jobs</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Deformations.csproj">
+      <Project>{b9b0c02f-68b1-a068-a86d-387fc92ba31b}</Project>
+      <Name>Unity.Deformations</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{83066af7-ef11-3c3f-df8b-9e3e0512e6b8}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ScriptableBuildPipeline.Editor.csproj">
+      <Project>{5ff0b057-6250-001c-02ac-6f9e279f38bf}</Project>
+      <Name>Unity.ScriptableBuildPipeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
+      <Project>{3aa6db7e-51a6-0b6e-9de7-9cc82eb0079d}</Project>
+      <Name>Unity.RenderPipelines.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.csproj">
+      <Project>{d7bbc3d4-801e-0b7b-f18f-6c2b04dd8d46}</Project>
+      <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

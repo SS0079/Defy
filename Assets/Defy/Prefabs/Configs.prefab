@@ -1,0 +1,1237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8823669358391870049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8823669358391870050}
+  - component: {fileID: 8823669358391870051}
+  m_Layer: 0
+  m_Name: AllUpgrades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8823669358391870050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823669358391870049}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8823669359742696997}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8823669358391870051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823669358391870049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5440ecd33d3d4c938e3afd4b61173900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AllUpgrades:
+  - WeaponID: 0
+    Level: 1
+    Append: "\u6539\u4E00"
+    Description: "\u5F39\u836F+50\uFF0C\u9F50\u5C04+1"
+    DelayBetweenShotMul: 1
+    SalvoAdd: 1
+    SpreadMul: 1
+    MaxAmmoAdd: 50
+    BulletSpeedAdd: 0
+    BulletSpanAdd: 0
+    BulletDamageAdd: 0
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 0
+  - WeaponID: 0
+    Level: 2
+    Append: "\u6539\u4E8C"
+    Description: "\u5F39\u836F+50\uFF0C\u5C04\u51FB\u95F4\u9694-50%"
+    DelayBetweenShotMul: 0.5
+    SalvoAdd: 0
+    SpreadMul: 1
+    MaxAmmoAdd: 50
+    BulletSpeedAdd: 0
+    BulletSpanAdd: 0
+    BulletDamageAdd: 0
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 0
+  - WeaponID: 0
+    Level: 3
+    Append: "\u6539\u4E09"
+    Description: "\u5F39\u836F+100\uFF0C\u5C04\u51FB\u95F4\u9694-75%"
+    DelayBetweenShotMul: 0.25
+    SalvoAdd: 0
+    SpreadMul: 1
+    MaxAmmoAdd: 0
+    BulletSpeedAdd: 0
+    BulletSpanAdd: 0
+    BulletDamageAdd: 0
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 0
+  - WeaponID: 1
+    Level: 1
+    Append: "\u7D27\u51D1\u578B"
+    Description: "\u5F39\u836F+3\uFF0C\u5C04\u51FB\u95F4\u9694\u7F29\u77ED50%"
+    DelayBetweenShotMul: 0.5
+    SalvoAdd: 0
+    SpreadMul: 1
+    MaxAmmoAdd: 3
+    BulletSpeedAdd: 0
+    BulletSpanAdd: 0
+    BulletDamageAdd: 0
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 0
+  - WeaponID: 1
+    Level: 2
+    Append: "\u589E\u5F3A\u578B"
+    Description: "\u6563\u5C04+100%\uFF0C\u9F50\u5C04+100%"
+    DelayBetweenShotMul: 1
+    SalvoAdd: 25
+    SpreadMul: 2
+    MaxAmmoAdd: 0
+    BulletSpeedAdd: 0
+    BulletSpanAdd: 0
+    BulletDamageAdd: 0
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 0
+  - WeaponID: 1
+    Level: 3
+    Append: "\u9A8C\u8BC1\u578B"
+    Description: "\u4F24\u5BB3+1\uFF0C\u5C04\u7A0B+50%\uFF0C\u7A7F\u900F+100%"
+    DelayBetweenShotMul: 1
+    SalvoAdd: 0
+    SpreadMul: 1
+    MaxAmmoAdd: 0
+    BulletSpeedAdd: 75
+    BulletSpanAdd: 0
+    BulletDamageAdd: 1
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 20
+  - WeaponID: 2
+    Level: 1
+    Append: +1
+    Description: "\u5C04\u7A0B+100%"
+    DelayBetweenShotMul: 1
+    SalvoAdd: 0
+    SpreadMul: 1
+    MaxAmmoAdd: 0
+    BulletSpeedAdd: 55
+    BulletSpanAdd: 0
+    BulletDamageAdd: 0
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 0
+  - WeaponID: 2
+    Level: 2
+    Append: +2
+    Description: "\u4F24\u5BB3+0.5"
+    DelayBetweenShotMul: 1
+    SalvoAdd: 0
+    SpreadMul: 1
+    MaxAmmoAdd: 0
+    BulletSpeedAdd: 0
+    BulletSpanAdd: 0
+    BulletDamageAdd: 0.5
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 0
+  - WeaponID: 2
+    Level: 3
+    Append: +3
+    Description: "\u8303\u56F4+100%"
+    DelayBetweenShotMul: 1
+    SalvoAdd: 30
+    SpreadMul: 2
+    MaxAmmoAdd: 0
+    BulletSpeedAdd: 0
+    BulletSpanAdd: 0
+    BulletDamageAdd: 0
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 0
+  - WeaponID: 3
+    Level: 1
+    Append: MK.II
+    Description: "\u5F39\u5939+1\uFF0C\u5C04\u51FB\u95F4\u9694-50%"
+    DelayBetweenShotMul: 0.5
+    SalvoAdd: 0
+    SpreadMul: 1
+    MaxAmmoAdd: 1
+    BulletSpeedAdd: 0
+    BulletSpanAdd: 0
+    BulletDamageAdd: 0
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 0
+  - WeaponID: 3
+    Level: 2
+    Append: MK.III
+    Description: "\u5F39\u5939+2"
+    DelayBetweenShotMul: 1
+    SalvoAdd: 0
+    SpreadMul: 1
+    MaxAmmoAdd: 2
+    BulletSpeedAdd: 0
+    BulletSpanAdd: 0
+    BulletDamageAdd: 0
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 0
+  - WeaponID: 3
+    Level: 3
+    Append: MK.IV
+    Description: "\u5F39\u5939+2"
+    DelayBetweenShotMul: 1
+    SalvoAdd: 0
+    SpreadMul: 1
+    MaxAmmoAdd: 2
+    BulletSpeedAdd: 0
+    BulletSpanAdd: 0
+    BulletDamageAdd: 0
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 0
+  - WeaponID: 4
+    Level: 1
+    Append: Var2
+    Description: "\u5F39\u5939+1"
+    DelayBetweenShotMul: 1
+    SalvoAdd: 0
+    SpreadMul: 1
+    MaxAmmoAdd: 1
+    BulletSpeedAdd: 0
+    BulletSpanAdd: 0
+    BulletDamageAdd: 0
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 0
+  - WeaponID: 4
+    Level: 2
+    Append: Var3
+    Description: "\u8F70\u70B8\u5BC6\u5EA6+200%"
+    DelayBetweenShotMul: 1
+    SalvoAdd: 2
+    SpreadMul: 1
+    MaxAmmoAdd: 1
+    BulletSpeedAdd: 0
+    BulletSpanAdd: 0
+    BulletDamageAdd: 0
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 0
+  - WeaponID: 4
+    Level: 3
+    Append: Var4
+    Description: "\u5F39\u836F+1"
+    DelayBetweenShotMul: 1
+    SalvoAdd: 0
+    SpreadMul: 1
+    MaxAmmoAdd: 1
+    BulletSpeedAdd: 0
+    BulletSpanAdd: 0
+    BulletDamageAdd: 0
+    BulletDamageRangeMul: 1
+    BulletPenetrateAdd: 0
+--- !u!1 &8823669358456149144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8823669358456149146}
+  - component: {fileID: 8823669358456149141}
+  - component: {fileID: 8823669358456149142}
+  m_Layer: 0
+  m_Name: SpawnerConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8823669358456149146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823669358456149144}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8823669359742696997}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8823669358456149141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823669358456149144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 920c6afeea8746ecb24ce31975ee39ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnerConfig:
+    DoSpawn: 1
+    SpawnCountDown: 1
+    Interval: 0.2
+    Space: 6
+    SpawnCount: 200
+    MinRange: 150
+    MaxRange: 350
+    FrameRateThreshold: 45
+    TotalSpawned: 0
+    MaxSpawn: 0
+  Enemy: {fileID: 5714123372987953051, guid: 2618ef5a69c9e554f8101ac5f1f7edc9, type: 3}
+--- !u!114 &8823669358456149142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823669358456149144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 0
+--- !u!1 &8823669359283591471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8823669359283591466}
+  - component: {fileID: 8823669359283591460}
+  - component: {fileID: 8823669359283591467}
+  - component: {fileID: 8823669359283591461}
+  m_Layer: 0
+  m_Name: AllWeaponConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8823669359283591466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823669359283591471}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.1904075, y: 0.5, z: 40.70312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8823669359742696997}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8823669359283591460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823669359283591471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a88e2dc79549598429b60a96b9440c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AllWeaponConfigs:
+  - Activate: 1
+    Name: "200\u6BEB\u7C73\u65E0\u540E\u5EA7\u529B\u81EA\u52A8\u70AE"
+    Weapon:
+      Name:
+        utf8LengthInBytes: 0
+        bytes:
+          offset0000:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          offset0016:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          offset0032:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          byte0048: 0
+          byte0049: 0
+          byte0050: 0
+          byte0051: 0
+          byte0052: 0
+          byte0053: 0
+          byte0054: 0
+          byte0055: 0
+          byte0056: 0
+          byte0057: 0
+          byte0058: 0
+          byte0059: 0
+          byte0060: 0
+          byte0061: 0
+      Append:
+        utf8LengthInBytes: 0
+        bytes:
+          offset0000:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          byte0016: 0
+          byte0017: 0
+          byte0018: 0
+          byte0019: 0
+          byte0020: 0
+          byte0021: 0
+          byte0022: 0
+          byte0023: 0
+          byte0024: 0
+          byte0025: 0
+          byte0026: 0
+          byte0027: 0
+          byte0028: 0
+          byte0029: 0
+      WeaponID: 0
+      CurrentLevel: 0
+      DelayBetweenShoot: 0.05
+      Salvo: 1
+      SpreadDegree: 8
+      MaxAmmo: 150
+      BulletParams:
+        Type: 0
+        IgnoreGround: 1
+        FuzeLength: 1
+        Speed: 250
+        LifeSpan: 1
+        Damage: 2
+        DamageRadius: 1
+        KnockBack: 0
+        Penetrate: 100
+      Type: 0
+    BulletPrefab: {fileID: 657157950001887129, guid: 1efec0d9f27e2c94e84dc056bf1cb34a,
+      type: 3}
+  - Activate: 1
+    Name: "\u80F3\u818A\u58EE\u56DE\u65CB\u52A0\u901F\u9730\u5F39\u70AE"
+    Weapon:
+      Name:
+        utf8LengthInBytes: 0
+        bytes:
+          offset0000:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          offset0016:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          offset0032:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          byte0048: 0
+          byte0049: 0
+          byte0050: 0
+          byte0051: 0
+          byte0052: 0
+          byte0053: 0
+          byte0054: 0
+          byte0055: 0
+          byte0056: 0
+          byte0057: 0
+          byte0058: 0
+          byte0059: 0
+          byte0060: 0
+          byte0061: 0
+      Append:
+        utf8LengthInBytes: 0
+        bytes:
+          offset0000:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          byte0016: 0
+          byte0017: 0
+          byte0018: 0
+          byte0019: 0
+          byte0020: 0
+          byte0021: 0
+          byte0022: 0
+          byte0023: 0
+          byte0024: 0
+          byte0025: 0
+          byte0026: 0
+          byte0027: 0
+          byte0028: 0
+          byte0029: 0
+      WeaponID: 0
+      CurrentLevel: 0
+      DelayBetweenShoot: 0.6
+      Salvo: 25
+      SpreadDegree: 30
+      MaxAmmo: 8
+      BulletParams:
+        Type: 0
+        IgnoreGround: 1
+        FuzeLength: 1
+        Speed: 150
+        LifeSpan: 0.7
+        Damage: 1
+        DamageRadius: 1
+        KnockBack: 0
+        Penetrate: 20
+      Type: 0
+    BulletPrefab: {fileID: 8627446931687810781, guid: 74d318735621db64eb4c757fef897ff1,
+      type: 3}
+  - Activate: 1
+    Name: "\u7B49\u79BB\u5B50\u706B\u7130\u55B7\u5C04\u5668"
+    Weapon:
+      Name:
+        utf8LengthInBytes: 0
+        bytes:
+          offset0000:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          offset0016:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          offset0032:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          byte0048: 0
+          byte0049: 0
+          byte0050: 0
+          byte0051: 0
+          byte0052: 0
+          byte0053: 0
+          byte0054: 0
+          byte0055: 0
+          byte0056: 0
+          byte0057: 0
+          byte0058: 0
+          byte0059: 0
+          byte0060: 0
+          byte0061: 0
+      Append:
+        utf8LengthInBytes: 0
+        bytes:
+          offset0000:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          byte0016: 0
+          byte0017: 0
+          byte0018: 0
+          byte0019: 0
+          byte0020: 0
+          byte0021: 0
+          byte0022: 0
+          byte0023: 0
+          byte0024: 0
+          byte0025: 0
+          byte0026: 0
+          byte0027: 0
+          byte0028: 0
+          byte0029: 0
+      WeaponID: 0
+      CurrentLevel: 0
+      DelayBetweenShoot: 0
+      Salvo: 15
+      SpreadDegree: 35
+      MaxAmmo: 500
+      BulletParams:
+        Type: 0
+        IgnoreGround: 1
+        FuzeLength: 1
+        Speed: 55
+        LifeSpan: 0.7
+        Damage: 1
+        DamageRadius: 1
+        KnockBack: 0
+        Penetrate: 1000
+      Type: 0
+    BulletPrefab: {fileID: 4359354799130966671, guid: 21b8f57ba28158d4c8408618b289daa7,
+      type: 3}
+  - Activate: 1
+    Name: "\u201C\u5FAE\u98CE\u201D\u77ED\u7A0B\u5F39\u9053\u5BFC\u5F39"
+    Weapon:
+      Name:
+        utf8LengthInBytes: 0
+        bytes:
+          offset0000:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          offset0016:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          offset0032:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          byte0048: 0
+          byte0049: 0
+          byte0050: 0
+          byte0051: 0
+          byte0052: 0
+          byte0053: 0
+          byte0054: 0
+          byte0055: 0
+          byte0056: 0
+          byte0057: 0
+          byte0058: 0
+          byte0059: 0
+          byte0060: 0
+          byte0061: 0
+      Append:
+        utf8LengthInBytes: 0
+        bytes:
+          offset0000:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          byte0016: 0
+          byte0017: 0
+          byte0018: 0
+          byte0019: 0
+          byte0020: 0
+          byte0021: 0
+          byte0022: 0
+          byte0023: 0
+          byte0024: 0
+          byte0025: 0
+          byte0026: 0
+          byte0027: 0
+          byte0028: 0
+          byte0029: 0
+      WeaponID: 0
+      CurrentLevel: 0
+      DelayBetweenShoot: 2
+      Salvo: 1
+      SpreadDegree: 0
+      MaxAmmo: 4
+      BulletParams:
+        Type: 1
+        IgnoreGround: 0
+        FuzeLength: 0.5
+        Speed: 55
+        LifeSpan: 10
+        Damage: 5
+        DamageRadius: 5
+        KnockBack: 0
+        Penetrate: 1
+      Type: 2
+    BulletPrefab: {fileID: 2023145677756950328, guid: ba8367529f00aba48ba9b48e436587c4,
+      type: 3}
+  - Activate: 1
+    Name: "\u201C\u6D77\u6EE8\u5047\u65E5\u201D"
+    Weapon:
+      Name:
+        utf8LengthInBytes: 0
+        bytes:
+          offset0000:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          offset0016:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          offset0032:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          byte0048: 0
+          byte0049: 0
+          byte0050: 0
+          byte0051: 0
+          byte0052: 0
+          byte0053: 0
+          byte0054: 0
+          byte0055: 0
+          byte0056: 0
+          byte0057: 0
+          byte0058: 0
+          byte0059: 0
+          byte0060: 0
+          byte0061: 0
+      Append:
+        utf8LengthInBytes: 0
+        bytes:
+          offset0000:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          byte0016: 0
+          byte0017: 0
+          byte0018: 0
+          byte0019: 0
+          byte0020: 0
+          byte0021: 0
+          byte0022: 0
+          byte0023: 0
+          byte0024: 0
+          byte0025: 0
+          byte0026: 0
+          byte0027: 0
+          byte0028: 0
+          byte0029: 0
+      WeaponID: 0
+      CurrentLevel: 0
+      DelayBetweenShoot: 3
+      Salvo: 1
+      SpreadDegree: 0
+      MaxAmmo: 2
+      BulletParams:
+        Type: 0
+        IgnoreGround: 0
+        FuzeLength: 0.5
+        Speed: 55
+        LifeSpan: 10
+        Damage: 5
+        DamageRadius: 5
+        KnockBack: 0
+        Penetrate: 0
+      Type: 1
+    BulletPrefab: {fileID: 5265694235628499179, guid: da4736fd1241e964b80caa759eab7069,
+      type: 3}
+  - Activate: 0
+    Name: "\u8BD5\u4F5C\u578B\u7C92\u5B50\u6295\u5C04\u5668"
+    Weapon:
+      Name:
+        utf8LengthInBytes: 0
+        bytes:
+          offset0000:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          offset0016:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          offset0032:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          byte0048: 0
+          byte0049: 0
+          byte0050: 0
+          byte0051: 0
+          byte0052: 0
+          byte0053: 0
+          byte0054: 0
+          byte0055: 0
+          byte0056: 0
+          byte0057: 0
+          byte0058: 0
+          byte0059: 0
+          byte0060: 0
+          byte0061: 0
+      Append:
+        utf8LengthInBytes: 0
+        bytes:
+          offset0000:
+            byte0000: 0
+            byte0001: 0
+            byte0002: 0
+            byte0003: 0
+            byte0004: 0
+            byte0005: 0
+            byte0006: 0
+            byte0007: 0
+            byte0008: 0
+            byte0009: 0
+            byte0010: 0
+            byte0011: 0
+            byte0012: 0
+            byte0013: 0
+            byte0014: 0
+            byte0015: 0
+          byte0016: 0
+          byte0017: 0
+          byte0018: 0
+          byte0019: 0
+          byte0020: 0
+          byte0021: 0
+          byte0022: 0
+          byte0023: 0
+          byte0024: 0
+          byte0025: 0
+          byte0026: 0
+          byte0027: 0
+          byte0028: 0
+          byte0029: 0
+      WeaponID: 0
+      CurrentLevel: 0
+      DelayBetweenShoot: 0
+      Salvo: 1
+      SpreadDegree: 0
+      MaxAmmo: 500
+      BulletParams:
+        Type: 0
+        IgnoreGround: 1
+        FuzeLength: 0.5
+        Speed: 1000
+        LifeSpan: 1
+        Damage: 3
+        DamageRadius: 5
+        KnockBack: 0
+        Penetrate: 1000
+      Type: 0
+    BulletPrefab: {fileID: 4359354799130966671, guid: 2ed1976657dcac441bfbc8e7f351bc8b,
+      type: 3}
+--- !u!114 &8823669359283591467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823669359283591471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 0
+--- !u!114 &8823669359283591461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823669359283591471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7224b3ed4943afb1cfc8bb0cfef37c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Value: {fileID: 0}
+--- !u!1 &8823669359742697003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8823669359742696997}
+  - component: {fileID: 8823669359742696996}
+  m_Layer: 0
+  m_Name: Configs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8823669359742696997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823669359742697003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.000000059604645, y: 0, z: -0.00000011920929}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8823669358456149146}
+  - {fileID: 8823669359967235852}
+  - {fileID: 8823669359283591466}
+  - {fileID: 8823669358391870050}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8823669359742696996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823669359742697003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 0
+--- !u!1 &8823669359967235858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8823669359967235852}
+  - component: {fileID: 8823669359967235859}
+  - component: {fileID: 8823669359967235853}
+  m_Layer: 0
+  m_Name: VfxConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8823669359967235852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823669359967235858}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8823669359742696997}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8823669359967235859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823669359967235858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac24c3af3cc444ad8f3d93c466279f4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HitEffectFrame: 0.05
+--- !u!114 &8823669359967235853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823669359967235858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 0

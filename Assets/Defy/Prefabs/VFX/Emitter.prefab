@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &428382645747964262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 428382645747964261}
+  - component: {fileID: 428382645747964260}
+  - component: {fileID: -8235998314126742974}
+  - component: {fileID: -1457109115927107180}
+  - component: {fileID: 8542681465427399945}
+  m_Layer: 0
+  m_Name: Emitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &428382645747964261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428382645747964262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.031, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &428382645747964260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428382645747964262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 0
+--- !u!114 &-8235998314126742974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428382645747964262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acd8d91e9f714bcf85634a06bc6a7083, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Value:
+    state: 0
+--- !u!114 &-1457109115927107180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428382645747964262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa028b27e0324bcb808140d05e331fb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Yes: 0
+--- !u!114 &8542681465427399945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428382645747964262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 856391a9c893486c8aa680e63b279ba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParticleEntity: {fileID: 0}
+  SpeedRange: {x: 20, y: 20}
+  LifeSpanRange: {x: 1, y: 1}
+  SpeedCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.008611746
+      outSlope: -0.008611746
+      tangentMode: 0
+      weightedMode: 2
+      inWeight: 0
+      outWeight: 0.6986836
+    - serializedVersion: 3
+      time: 0.90900403
+      value: 0.84583545
+      inSlope: -1.7275203
+      outSlope: -1.7275203
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.1096855
+      outWeight: 0.2743562
+    - serializedVersion: 3
+      time: 1.0105951
+      value: 0.20681418
+      inSlope: -29.197535
+      outSlope: -29.197535
+      tangentMode: 0
+      weightedMode: 1
+      inWeight: 0.04949147
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SpeedCurveSampleCount: 32
+  FadeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1.0014343
+      inSlope: -0.1762123
+      outSlope: -0.1762123
+      tangentMode: 0
+      weightedMode: 2
+      inWeight: 0
+      outWeight: 0.3669154
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -2.8013864
+      outSlope: -2.8013864
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.02611947
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  FadeCurveSampleCount: 32
+  Type: 0
+  InitDirection:
+    x: 0
+    y: 0
+    z: 0
+  Scale: 0
+  Salvo: 100
+  Loop: 1
+  Interval: 0.1
+  CountDown: 0
