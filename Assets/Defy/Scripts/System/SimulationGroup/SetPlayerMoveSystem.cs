@@ -1,5 +1,4 @@
 ﻿using Defy.Component;
-using Rewired;
 using Unity.Burst;
 using Unity.Entities;
 using Unity.Mathematics;
@@ -11,18 +10,15 @@ namespace Defy.System
     [UpdateAfter(typeof(SetAimPosSystem))]
     public partial class SetPlayerMoveSystem : SystemBase
     {
-        private Player _PlayerInput;
 
         protected override void OnStartRunning()
         {
-            _PlayerInput = ReInput.players.GetPlayer(0);
         }
 
         protected override void OnUpdate()
         {
-            float x = _PlayerInput.GetAxis("Horizontal");
-            float y = _PlayerInput.GetAxis("Vertical");
-            bool jump = _PlayerInput.GetButtonDown("Jump");
+            float x = Input.GetAxis("Horizontal");
+            float y = Input.GetAxis("Vertical");
             float3 direction = new float3(x,0, y);
             new SetMoveJob() { Direction = direction }.ScheduleParallel();
         }

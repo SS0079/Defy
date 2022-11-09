@@ -1,3 +1,7 @@
 Logs/
 *.csproj
 *.idea
+RewiredBackup/
+UserSettings/
+Library/
+Temp/
